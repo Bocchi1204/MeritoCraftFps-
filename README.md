@@ -8,6 +8,9 @@ No tiene intención comercial ni busca perjudicar, ofender o atacar a ninguna pe
 El contenido, nombres, referencias y mecánicas presentes deben interpretarse dentro de un contexto ficticio, humorístico o de entretenimiento.
 Algunas bromas o referencias pueden incluir humor absurdo, memes o chistes internos entre amigos, sin intención de ofender o atacar a ningún grupo o persona.
 
+El proyecto es compatible con los idiomas Español (Argentina) y Español (México) dentro del juego.
+Debería funcionar correctamente en otros idiomas, aunque no fue diseñado específicamente para ellos, por lo que pueden existir algunas inconsistencias o textos sin adaptar.
+
 ## Uso y distribución
 
 Se permite compartir, modificar y redistribuir este proyecto libremente siempre que:
