@@ -1,44 +1,43 @@
-# MeritoCraft
+# MeritoCraft - FPS+ Modpack
 
-Mod enfocado en complicarte la vida :D
+Un modpack centrado en el rendimiento, construido alrededor del mod **MeritoCraft**. Está diseñado específicamente para maximizar los FPS, estabilizar los tiempos de carga y reducir drásticamente el consumo de memoria RAM y tarjeta gráfica (VRAM). Ejecutándose sobre la plataforma **NeoForge para Minecraft 1.21.8**.
 
-El mod tiene dos modos de juego:
-  - Modo completo (por defecto): Es la experiencia completa del mod, este modo te obliga a experimentar el mod por completo si quieres pasarte el juego. 
-  - Modo simple: En este modo no se exige un requisito como tal, pero aún así en la práctica hay un mínimo obligatorio por temas de obtención de objetos.
+---
 
-Para cambiar de modo de juego: en la configuración del mod pon "Experiencia completa" en "Sí" para el modo completo y "No" para el modo simple ("full_experience" en true/false en los archivos del mod)
+### Motor de Renderizado y FPS
+- **Sodium, Sodium Extra y Reese's Sodium Options:** Reemplazo del motor de renderizado vanilla para multiplicar los FPS estables.
+- **ImmediatelyFast:** Optimiza el renderizado de la interfaz de usuario (HUD), textos y el dibujado de entidades.
+- **Entity Culling:** Reduce la carga de la GPU al no procesar bloques ni entidades ocultas detrás de paredes o fuera de la vista.
+- **Iris:** Integración nativa para el uso de Shaders sin comprometer drásticamente el rendimiento.
 
-El mod fue pensado como una experiencia Vanilla+, no puedo garantizar que sea compatible o esté balanceado con el uso de otros mods.
+### Lógica del Juego y Generación de Mundo
+- **Lithium:** Optimización de las físicas del juego, la inteligencia artificial de los mobs y la carga de chunks.
+- **Structure Layout Optimizer:** Mejora los algoritmos de generación de estructuras para evitar micro-tirones al explorar el mapa.
 
-El mod es compatible con juego multijugador, está pensado para modo competitivo/PVP pero es posible jugar Co-op hasta justo antes del final.
+### Estabilidad, Memoria y Corrección de Errores
+- **FerriteCore:** Reduce masivamente el uso de memoria RAM disminuyendo el peso de los modelos 3D en memoria.
+- **ModernFix:** Aplica parches críticos a bugs del motor base, acelera los tiempos de inicio y optimiza la asignación de memoria.
+- **GPU Memory Leak Fix:** Previene la degradación del rendimiento en sesiones largas solucionando fugas de memoria gráfica.
 
-## Sobre el proyecto
+### Librerías de Soporte
+- **Cupboard** y **Resourceful Config** para garantizar la compatibilidad interna y la estabilidad general del modpack.
 
-Proyecto personal desarrollado por Nehuenn20 con la ayuda de MCreator.
+---
 
-Este proyecto fue creado con fines recreativos, educativos y experimentales.
-No tiene intención comercial ni busca perjudicar, ofender o atacar a ninguna persona, grupo o comunidad.
+## Instalación Básica
 
-El contenido, nombres, referencias y mecánicas presentes deben interpretarse dentro de un contexto ficticio, humorístico o de entretenimiento.
-Algunas bromas o referencias pueden incluir humor absurdo, memes o chistes internos entre amigos, sin intención de ofender o atacar a ningún grupo o persona.
+1. Asegúrate de tener instalado el perfil de **NeoForge para la versión 1.21.8**.
+2. Descarga el contenido de este repositorio.
+3. Copia el contenido de la carpeta `mods` dentro del directorio `.minecraft` de tu launcher.
 
-El proyecto es compatible con los idiomas Español (Argentina) y Español (México) dentro del juego.
-Otros idiomas deberían funcionar correctamente, aunque pueden existir inconsistencias en textos, referencias o traducciones sin adaptar.
 
-Actualmente no hay planes de mantener el proyecto activamente, corregir errores, añadir nuevos idiomas ni actualizarlo a futuras versiones, aunque podrían realizarse cambios o actualizaciones ocasionales.
+## Atribución y Licencia
 
-## Uso y distribución
+Este modpack incluye y distribuye el mod **[MeritoCraft](https://github.com/Nehuenn20/MeritoCraft)**, desarrollado originalmente por **[Nehuenn20](https://github.com/Nehuenn20)**.
 
-Se permite compartir y modificar este proyecto bajo los términos de la licencia CC BY-NC 4.0, dando el crédito correspondiente y sin fines comerciales.
-
-## Objetivo del proyecto
-
-Este proyecto fue creado principalmente para:
-
-- aprender y experimentar con MCreator.
-- probar ideas y mecánicas.
-- crear contenido por diversión.
-- desafiar a amigos dentro del juego.
+De acuerdo con la licencia **Creative Commons (CC)** del mod original, este proyecto:
+- Otorga el crédito completo y explícito al creador de MeritoCraft.
+- Respeta y mantiene los términos de distribución requeridos por la licencia del autor original.
 
 ## Disclaimer
 
